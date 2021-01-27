@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# dend
+radio_code.json
+police-department-calls-for-service.json
