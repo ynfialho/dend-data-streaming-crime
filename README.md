@@ -1,4 +1,5 @@
 # SF Crime Statistics with Spark Streaming
+<img src='dend_data_streaming.png'/>
 
 ## Pre requirements
 * Python 3.7+
