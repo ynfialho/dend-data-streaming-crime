@@ -2,3 +2,5 @@ findspark
 pyspark
 python-dateutil
 pathlib
+confluent_kafka
+kafka-python
