@@ -95,8 +95,8 @@ if __name__ == "__main__":
         .config("spark.sql.shuffle.partitions", 3) \
         .config("maxOffsetsPerTrigger", 200) \
         .config("spark.default.parallelism", 50) \
+        .config("spark.sql.shuffle.partitions", 100) \
         .config("spark.ui.port", 3000) \
-        .config("spark.streaming.kafka.maxRatePerPartition", 1000) \
         .master("local[*]") \
         .appName("KafkaSparkStructuredStreaming") \
         .getOrCreate()
